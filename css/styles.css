@@ -1,0 +1,311 @@
+/* General Styling*/
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+}
+a {
+	color: #06c;
+}
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.top-50 {
+	margin-top: 50px;
+}
+.top-10 {
+	/* margin-top: 100px; */
+	padding-top: 10px;
+}
+/* Header Style */
+.nav-wrapper {
+	background: rgba(0, 0, 0, 0.8);
+	font-size: 0.85em;
+	font-weight: 200;
+}
+.nav-wrapper ul li a {
+	color: #fff;
+}
+.navbar-toggler {
+	color: #fff;
+}
+.nav-item {
+	text-align: left !important;
+	padding: 4px 0;
+	border-bottom: 1px solid #4b4b4b;
+}
+/* First section style begins here */
+.MacBook-Wrapper {
+	/* padding: 25px 0px; */
+	background-color: #fafafa;
+}
+.model-line {
+	font-size: 0.85em;
+}
+.brand-line {
+	font-size: 56px;
+	font-weight: 700;
+}
+.description-line {
+	font-size: 1.5em;
+}
+.link-line {
+	padding: 15px 0px;
+}
+.link-line ul li {
+	display: inline-block; /* makes list style none */
+	padding-right: 20px;
+}
+.link-line ul li a {
+	color: rgb(59, 59, 217);
+	font-size: 20px;
+}
+.link-line ul li a:after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f105";
+	padding-left: 10px;
+}
+.hover-black a:hover {
+	color: black;
+}
+/* First section style ends here */
+/* Second section style starts here */
+.iPhone11Pro-Wrapper {
+	background-image: url(../images/home/iphone11-pro-bg.jpg);
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* padding: 65px 20px; */
+	color: white;
+}
+.title-wrapper {
+	font-weight: 600;
+	font-size: 56px;
+}
+.description-wrapper {
+	font-size: 20px;
+	padding: 10px 0;
+}
+.price-wrapper {
+	color: gray;
+	font-size: 0.85em;
+}
+.iPhone11Pro-Wrapper a:hover {
+	color: white;
+}
+/* Second section style ends here */
+/*Third section style begins here */
+.iPhone11-Wrapper {
+	background: url(../images/home/iphone11-bg.jpg);
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* padding: 65px 20px; */
+}
+/*Third section style ends here */
+
+/*Fourth section style begins here */
+.Watch-card-Wrapper {
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	background: #fff;
+}
+.description-part {
+	max-width: 430px;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 10px;
+}
+.left-wrapper {
+	background-image: url("../images/home/watch-series-5.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 48.5%; */
+	margin: 0% 0.5% 0% 1%;
+	/* padding-top: 54px; */
+}
+.right-wrapper {
+	background-image: url("../images/home/apple-card.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 48.5%; */
+	margin: 1% 1% 0% 0.5%;
+	/* padding-top: 54px; */
+}
+/*Fourth section style ends here */
+/* Fivth section begins here */
+.TV-AirPod-Wrapper {
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	background: #fff;
+}
+.TV-AirPod-Wrapper .right-wrapper a:hover {
+	color: white;
+}
+.right-wrapper .title-wrapper {
+	font-size: 35px;
+	font-weight: bold;
+}
+.TV-AirPod-Wrapper .left-wrapper {
+	background-image: url("../images/home/apple-tv-background.jpg");
+}
+.TV-AirPod-Wrapper .right-wrapper {
+	background-image: url("../images/home/air-pods.jpg");
+	color: #fff;
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.tv-show-logo-wrapper {
+	padding: 220px 0 200px;
+}
+.watch-more-wrapper a {
+	font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f144";
+	padding-left: 15px;
+}
+/* Fivth section ends here */
+/*Sixth section style starts here*/
+.MacBook-iPad-wrapper {
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	background: #fff;
+}
+.product-title-small {
+	font-weight: 700;
+	font-size: 45px;
+}
+.MacBook-iPad-wrapper .left-wrapper {
+	background-image: url("../images/home/macbook-pro.jpg");
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.MacBook-iPad-wrapper .right-wrapper {
+	background-image: url("../images/home/new-ipad.jpg");
+}
+/*Sixth section style ends here*/
+/* Footer Styling */
+.footer-wrapper {
+	background-color: #f5f5f7;
+	color: #86868b;
+	font-size: 0.7em;
+}
+.footer-wrapper ul {
+	list-style: none;
+	padding-bottom: 10px;
+	padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+	color: #515154;
+}
+.my-apple-wrapper {
+	padding-bottom: 15px;
+	margin-top: 10px;
+}
+.copyright {
+	margin-top: 15px;
+}
+.footer-country {
+	margin-top: 8px;
+}
+.flag-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.footer-country-name {
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-links-terms ul {
+	display: flex;
+}
+.footer-links-terms ul li {
+	padding: 0 10px;
+	border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+	padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+	border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #1d1d1f;
+}
+.footer-wrapper ul li {
+	padding: 4px 0;
+}
+.upper-text-container {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 10px;
+	margin-bottom: 20px;
+}
+.upper-text-container a {
+	color: #515154;
+}
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+}
+@media (min-width: 768px) {
+	/*Nav bar*/
+	.nav-item {
+		text-align: center !important;
+		padding: 0;
+		border-bottom: 0px;
+	}
+	/*Footer styling*/
+	.my-apple-wrapper {
+		border-bottom: 1px solid #d2d2d7;
+	}
+}
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}
+}
